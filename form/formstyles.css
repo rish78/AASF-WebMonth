@@ -25,7 +25,9 @@ input:focus{
     background-color: burlywood;
     font-size: 20px;
 }
-
+.submit{
+  padding: 10px;
+}
 .submit:hover{
     background:yellow;
 }
