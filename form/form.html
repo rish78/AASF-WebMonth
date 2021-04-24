@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./formstyles.css">
+    <title>Form</title>
+</head>
+<body>
+    <h1> AASF WEB MONTH </h1>
+    <div class="form">
+    <div class="formheading">
+    <h2> Form </h2>
+    <p>This form is designed to allow the government and big companies steal all your data. Please duly fill this form with utmost honesty, or consequences shall follow.</p>
+    </div>
+    <form>
+        <label for="fname">First Name: </label>
+        <input type="text" name="fname" id="fname" placeholder="Your first name here"> <br> <br>
+        <label for="lname">Last Name: </label>
+        <input type="text" name="lname" id="lname" placeholder="Your last name here"><br> <br>
+        <label for="gender">Gender: </label>
+        <select name="gender" id="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+        </select> <br><br>
+        <label for="email">Email id: </label>
+        <input type="email" name="email" id="email" placeholder="Your email id here"> <br><br>
+        <label for="password">Password: </label>
+        <input type="password" name="password" id="password"> <br><br>
+        <label for="phone">Phone Number: </label>
+        <input type="tel" name="phone" id="phone" maxlength="10"><br><br>
+        <label for="aadhar">Aadhar Card Number: </label>
+        <input type="number" name="aadhar" id="aadhar"> <br><br>
+        <label for="cc">Credit Card Number: </label>
+        <input type="number" name="cc" id="cc" maxlength="16"> <br><br>
+        <label for="cvv">CVV: </label>
+        <input type="password" name="cvv" id="cvv" maxlength="3" size="3"><br><br>
+        <label for="expiry">Expiry Date: </label>
+        <input type="month" name="expiry" id="expiry"><br><br>
+        <label for="own">Which of the following do you own? </label> <br>
+            <input type="checkbox" name="own" id="car" value="car">
+            <label for="car">Car</label> <br>
+            <input type="checkbox" name="own" id="bike" value="bike">
+            <label for="bike">Bike</label> <br>
+            <input type="checkbox" name="own" id="ac" value="ac">
+            <label for="ac">Air Conditioner</label> <br>
+            <input type="checkbox" name="own" id="laptop" value="laptop">
+            <label for="laptop">Laptop</label> <br><br><br>
+        <label for="income">Choose your annual income (in INR): </label> <br>
+            <input type="radio" name="income" id="lt2" value="lt2">
+            <label for="lt2">Less than 2 lacs</label> <br>
+            <input type="radio" name="income" id="2to5" value="2to5">
+            <label for="2to5">2 to 5 lacs</label> <br>
+            <input type="radio" name="income" id="5to8" value="5to8">
+            <label for="5to8">5 to 8 lacs</label> <br>
+            <input type="radio" name="income" id="8to12" value="8to12">
+            <label for="8to12">8 to 12 lacs</label> <br>
+            <input type="radio" name="income" id="12to15" value="12to15">
+            <label for="12to15">12 to 15 lacs</label> <br>
+            <input type="radio" name="income" id="mt15" value="mt15">
+            <label for="mt15">More than 15 lacs</label> <br><br>
+        <input type="submit" value="Submit" class="submit">
+    </form>
+</div>
+</body>
+</html>
